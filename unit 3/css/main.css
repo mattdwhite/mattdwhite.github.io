@@ -1,0 +1,113 @@
+body {
+		margin: 0px;
+		background-image: ;
+		background-size: cover;
+		font-family: "helvetica", san-serif;
+		color: #494949;
+				line-height: 1.5em;
+
+}
+
+header{
+		height: 280px;
+		margin-top: 50px;
+		background-color: #fa9a45;
+		text-align: center;
+		color: #ffffff;
+		width: auto;
+}
+
+#slogan {
+	color: #ffffff;
+	font-style: italic;
+	font-size: 1.25em;
+	font-weight: 100;
+	line-height: 100%;
+
+}
+
+h1{
+	padding-top: 2em;
+	margin-bottom: 0; 
+	padding-bottom: 0;
+	font-size: 3.5em;
+	font-weight: bold;
+
+}
+
+nav li{
+	color: #666;
+	font-style: bold;
+	font-size: 90%;
+	display: inline-block;
+	text-align: center;
+}
+
+a {
+	color: #39b54a;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav{
+	text-align: center;
+/*	margin: 1em;
+*/	padding-bottom: .3em;
+	border-bottom: solid 1px #e0e0e0;
+	line-height: 150%;
+
+}
+
+nav li a{
+	color: #666666;
+	padding: 1.5em;
+	font-weight: normal;
+}
+
+nav li a:hover {
+	color: #ff8115;
+}
+
+.list {
+		text-align: left;
+}
+
+.brand-story{
+	text-align: center;
+	background-color: #f9f9f9;
+
+}
+
+.opening-text{
+	text-align: center;
+	padding: 2em 10em 2em 12em;
+
+}
+
+.cta {
+	text-transform: uppercase;
+	color: #ff8115;
+}
+.button {
+	border-radius: .5em;
+	border: solid #e0e0e0 3px;
+	display: inline-block;
+	font-size: 1em;
+	padding: 1em 2em;
+	width: auto;
+}
+
+.cta:hover {
+  background-color: #fa9a45;
+  color: #ffffff;
+  width: auto;
+  border: solid 3px #fa9a45;
+}
+
+.button-wrapper {
+	padding: 1em 2em;
+	display: block;
+	text-align: center;
+
+}
+

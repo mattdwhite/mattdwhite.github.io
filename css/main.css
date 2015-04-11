@@ -1,4 +1,49 @@
 body {
+		margin 50px;
+		background-image: ;
+		background-size: cover;
+		font-family: "helvetica", san-serif;
+}
+
+header{
+		height: 300%;
+		margin-bottom: 80px;
 		background-color: #5bbc2e;
+		text-align: center;
 		color: #ffffff;
 }
+
+#slogan {
+	color: #ffffff;
+	font-style: italic;
+	font-size: 200%;
+	font-weight: 100;
+	line-height: 25%;
+
+}
+
+h1{
+	font-size: 400%;
+	font-weight: bold;
+
+}
+
+li{
+	color: #666;
+	font-style: ;
+	text-transform: uppercase;
+}
+
+a {
+	color:;
+	text-decoration: none;
+}
+
+.nav a{
+	color: #666666;
+}
+
+.nav:hover {
+	color: #b0e44f;
+}
+
