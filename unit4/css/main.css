@@ -4,9 +4,10 @@ body {
 		margin: 0px;
 		background-image: ;
 		background-size: cover;
-		font-family: "Open Sans", "helvetica", sans-serif;
+		font-family:  "Open Sans", "Helvetica", sans-serif;
 		color: #494949;
-				line-height: 1.5em;
+		letter-spacing: .035em;
+		line-height: 1.5em;
 
 }
 
