@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 
 body {
 		margin: 0px;
-		background-image: ;
-		background-size: cover;
-		font-family:  "Open Sans", "Helvetica", sans-serif;
-		color: #494949;
+		font-weight: 300;
+		font-family:  "Roboto", "Helvetica", sans-serif;
+		color: #666666;
 		letter-spacing: .035em;
 		line-height: 1.5em;
 
@@ -30,8 +30,8 @@ header{
 }
 
 h1{
-/*	font-family: "Montserrat", sans-serif;
-*/	padding-top: 2em;
+	font-family: "Open Sans", "Helvetica", sans-serif;
+	padding-top: 2em;
 	margin-bottom: 0; 
 	padding-bottom: .25em;
 	font-size: 3.5em;
@@ -40,8 +40,8 @@ h1{
 
 }
 h2{
-/*		font-family: "Montserrat", sans-serif;
-*/
+	font-family: "Open Sans", "Helvetica", sans-serif;
+	color: #494949;
 }
 
 nav li{
