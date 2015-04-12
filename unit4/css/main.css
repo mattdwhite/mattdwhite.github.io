@@ -1,11 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500);
 
 body {
 		margin: 0px;
 		font-weight: 300;
 		font-family:  "Roboto", "Helvetica", sans-serif;
-		color: #666666;
+/*		font-size: 16px;
+*/		color: #494949;
 		letter-spacing: .035em;
 		line-height: 1.5em;
 
