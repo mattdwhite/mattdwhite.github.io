@@ -5,7 +5,7 @@ body {
 		margin: 0px;
 		font-weight: 300;
 		font-family:  "Roboto", "Helvetica", sans-serif;
-		font-size: 17px;
+		font-size: 18px;
 		color: #666666;
 		letter-spacing: .035em;
 		line-height: 1.5em;
@@ -32,12 +32,13 @@ header{
 
 h1{
 	font-family: "Open Sans", "Helvetica", sans-serif;
-	padding-top: 2em;
+	padding-top: 1.75em;
 	margin-bottom: 0; 
 	padding-bottom: .25em;
 	font-size: 3.5em;
 	font-weight: 700;
 	font-style: 700;
+	line-height: 90%;
 
 }
 h2{
@@ -80,6 +81,7 @@ nav li a:hover {
 
 .list {
 		text-align: left;
+		padding-left: 4em;
 }
 
 .brand-story{
@@ -90,8 +92,9 @@ nav li a:hover {
 
 .opening-text{
 	text-align: center;
-	padding: 2em 10em 2em 12em;
-
+	padding: 0 2em;
+	width: 70%;
+	margin: 0 auto;
 }
 
 .cta {
