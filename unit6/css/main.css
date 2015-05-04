@@ -109,15 +109,18 @@ header p {
 	border:  2px solid #ff7474;
 }
 
-.cta form button{
+.cta {
 	padding: 10px 40px;
 	border-radius: 5px;
-	margin-top: 40px;
-	background-color: #ff7474;
+/*	margin-top: 40px;
+*/	background-color: #ff7474;
 	vertical-align: center;
 	color:#fff;
 	border:none;
-	font-size: .75em;
+	font-size: .85em;
+	display: inline-block;
+	text-align: center;
+
 }
 
 .cta:hover{
@@ -197,7 +200,7 @@ textarea:focus{
 	outline: rgba(255, 116, 116, .7) solid 3px;}
 
 
-form .cta{
+form button{
 	padding: 10px 40px;
 	border-radius: 5px;
 	margin-top: 40px;
