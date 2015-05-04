@@ -1,0 +1,353 @@
+body {
+	font-family: Montserrat, sans-serif;
+	line-height: 1.5;
+/*	font-size: 1em;
+
+*/	 -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff7474;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#hero{
+	background-image: url(../images/Salt-flats.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+/*	background-attachment: fixed;*/
+	background-size: 100%;
+	height: 900px;
+}
+
+header {
+	text-align: center;
+	height: auto;
+}
+
+h1 {
+	margin: 100px 0 0 0;
+	font-size: 3.5em;
+	color: #ffffff;
+	font-style: 800;
+}
+
+header p {
+	font-size: 1.25em;
+	color: #333;
+	line-height: 1em;
+	margin-bottom: 40px;
+	font-style: 400;	
+}
+
+.black{
+	color: #333;
+}
+
+.salmon{
+	background-color: #f9f9f9; 
+	padding-bottom: 120px;
+}
+
+.salmon h1{
+		color: #ff7474;
+}
+
+.left{
+	margin-left: 20px;
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.sec-nav{
+	background-color: #fff;
+/*	box-shadow: #6fa1e1 */
+
+}
+.sec-nav a{
+	color: #333;
+}
+
+.sec-nav a:hover{
+	color: #ff7474;
+}
+
+.sec-nav .logo:hover {
+	color: #333;
+}
+
+.sec-nav .sign-up:hover {
+	color: #fff;
+}
+
+.button{
+	padding: 10px 20px;
+	border-radius: 3px;
+	margin: 18px 30px 0 10px;
+	border: 2px solid #ffffff;
+	vertical-align: center;
+}
+
+.button:hover{
+	background-color: #ff7474;
+	color:#ffffff;
+	border:  2px solid #ff7474;
+}
+
+.cta form button{
+	padding: 10px 40px;
+	border-radius: 5px;
+	margin-top: 40px;
+	background-color: #ff7474;
+	vertical-align: center;
+	color:#fff;
+	border:none;
+	font-size: .75em;
+}
+
+.cta:hover{
+	background-color: #f9f9f9;
+	color:#ff7474;
+	border:  2px solid #ff7474;
+}
+
+nav a{
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	padding: 30px 15px;
+	float: left;
+	font-size: 16px;
+}
+.active-page{
+	border-bottom: 3px solid #ff7474;	
+}
+
+
+.logo{
+	font-style: 700;
+	font-size: 24px;
+	line-height: 28px;
+	padding-top: 25px;
+	color: #222;
+}
+
+nav .logo{
+	margin-right: 30px;
+}
+
+
+form{
+	text-align: center;
+	width:80%;
+	padding: 3em ;
+	margin:0 auto;
+}
+
+form div + div {
+    margin-top: 1.5em;
+}
+
+
+label {
+    display: inline;
+    text-align: right;
+    color: #66666;
+    padding-right: 1em;
+
+}
+
+input, textarea {
+    width: 33.33%;
+	height: 2em;
+    border: 2px solid #efefef;
+	vertical-align: top;
+	font-family: Montserrat;
+	line-height: 1em;
+	font-size: 1em;
+	padding: 0 .5em;
+	color: #666;
+}
+
+textarea{
+	height: 8em;
+	padding-top: .5em;
+}
+
+input:focus {
+	outline: rgba(255, 116, 116, .7) solid 3px;;
+}
+
+textarea:focus{
+	outline: rgba(255, 116, 116, .7) solid 3px;}
+
+
+form .cta{
+	padding: 10px 40px;
+	border-radius: 5px;
+	margin-top: 40px;
+	background-color: #ff7474;
+	vertical-align: center;
+	color:#fff;
+	border:  2px solid #ff7474;;
+	font-size: 1em;
+}
+
+form .cta:hover{
+	background-color: #ffffff;
+	color: #ff7474;
+	border:  2px solid #ff7474;
+}
+
+
+/*
+:-moz-placeholder {
+    color: #b2b2b2;
+    font-family: Montserrat;
+}
+ 
+::-webkit-input-placeholder {
+    color: #b2b2b2;
+    font-family: Montserrat;
+    letter-spacing: .08em;
+    padding-left: 1em;
+    font-size: 1.25em;
+
+}*/
+.logo:hover{
+	color: #333;
+}
+
+footer .logo:hover{
+	color:#fff;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+footer {
+	background-color: #b2b2b2;
+	margin:0;
+	padding: 4em 0em;
+
+}
+
+footer ul{
+	list-style: none;
+
+} 
+footer li{
+	padding: 0 .75em;
+	line-height: 2em;
+	font-size: 16px;
+}	
+
+.footer-logo{
+/*	vertical-align: center;
+*/	text-align: center;
+	border-right: 3px solid #fff;
+	padding: 3em 4em 2em 4em;
+}
+
+footer .left{
+	background-color: #b2b2b2;
+	margin-left: 5em;
+/*	width:20%;*/
+
+}
+
+footer p{
+	font-size: 11px;
+}
+
+/*footer .right{
+	margin-right: 3em;
+}*/
+
+.socialLinks p{
+	padding-left: 4em;
+
+}
+
+.twitter:hover{
+	background-position: -130px -36px;
+}
+
+.facebook:hover{
+	background-position: -43px -36px;
+}
+
+.youtube:hover{
+	background-position: -170px -36px;
+}
+
+.linkedin:hover{
+	background-position: -85px -36px;
+}
+
+.gplus:hover{
+	background-position: 0px -36px;
+}
+
+.socialLinks li{
+	display: inline-block;
+}
+
+.gplus{
+	 background: url('../images/social-icons-sprite.png') 0 0;
+	 background-repeat: no-repeat;
+	 	 width: 20px;
+	 height: 36px;
+
+}
+.twitter{
+	background: url('../images/social-icons-sprite.png') -130px 0;
+	 background-repeat: no-repeat;
+	 width: 20px;
+	 height: 36px;
+}
+
+.facebook{
+	background: url('../images/social-icons-sprite.png')-43px 0;
+	 background-repeat: no-repeat;
+	 width: 20px;
+	 height: 36px;
+
+}
+.youtube{
+	background: url('../images/social-icons-sprite.png')-170px 0;
+	 background-repeat: no-repeat;
+	 width: 20px;
+	 height: 36px;
+
+}
+.linkedin{
+	background: url('../images/social-icons-sprite.png')-85px 0;
+	 background-repeat: no-repeat;
+	 width: 20px;
+	 height: 36px;
+
+}
+
+
