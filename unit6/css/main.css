@@ -259,6 +259,11 @@ footer {
 	padding: 4em 0em;
 }
 
+.footer-wrapper{
+		margin:0 auto;
+
+}
+
 footer ul{
 	list-style: none;
 
@@ -277,10 +282,9 @@ footer li{
 footer .left {
 	background-color: #b2b2b2;
 	width:20%;
+	max-width: 240px;
 }
-.2nd-col{
-		display: inline-block;
-}
+
 
 footer div + div{
 		margin-left: 3em;
