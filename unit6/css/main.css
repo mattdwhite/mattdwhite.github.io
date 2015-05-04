@@ -5,6 +5,7 @@ body {
 
 */	 -moz-box-sizing: border-box;
 	box-sizing: border-box;
+	-web-kit-moz-box-sizing: border-box;
 	margin: 0 auto;
 }
 
@@ -29,7 +30,7 @@ a:hover {
 	background-position: center top;
 /*	background-attachment: fixed;*/
 	background-size: 100%;
-	height: 900px;
+	height: 800px;
 }
 
 header {
@@ -42,7 +43,8 @@ h1 {
 	font-size: 3.5em;
 	color: #ffffff;
 	font-style: 800;
-}
+/*	text-transform: uppercase;
+*/}
 
 header p {
 	font-size: 1.25em;
@@ -253,9 +255,8 @@ footer .logo:hover{
 
 footer {
 	background-color: #b2b2b2;
-	margin:0;
+	margin:0 auto;
 	padding: 4em 0em;
-
 }
 
 footer ul{
@@ -263,37 +264,42 @@ footer ul{
 
 } 
 footer li{
-	padding: 0 .75em;
 	line-height: 2em;
 	font-size: 16px;
 }	
 
 .footer-logo{
-/*	vertical-align: center;
-*/	text-align: center;
+ 	text-align: center;
 	border-right: 3px solid #fff;
-	padding: 3em 4em 2em 4em;
+	padding: 3em 0 2em 0;
 }
 
-footer .left{
+footer .left {
 	background-color: #b2b2b2;
-	margin-left: 5em;
-/*	width:20%;*/
+	width:20%;
+}
+.2nd-col{
+		display: inline-block;
+}
 
+footer div + div{
+		margin-left: 3em;
 }
 
 footer p{
 	font-size: 11px;
 }
 
-/*footer .right{
-	margin-right: 3em;
-}*/
-
-.socialLinks p{
-	padding-left: 4em;
+.socialLinks ul{
+	padding-left: 0;
 
 }
+
+.socialLinks li{
+	display: inline-block;
+	padding: 0 .75em;
+}
+
 
 .twitter:hover{
 	background-position: -130px -36px;
@@ -315,10 +321,6 @@ footer p{
 	background-position: 0px -36px;
 }
 
-.socialLinks li{
-	display: inline-block;
-}
-
 .gplus{
 	 background: url('../images/social-icons-sprite.png') 0 0;
 	 background-repeat: no-repeat;
@@ -326,6 +328,7 @@ footer p{
 	 height: 36px;
 
 }
+
 .twitter{
 	background: url('../images/social-icons-sprite.png') -130px 0;
 	 background-repeat: no-repeat;
@@ -340,6 +343,7 @@ footer p{
 	 height: 36px;
 
 }
+
 .youtube{
 	background: url('../images/social-icons-sprite.png')-170px 0;
 	 background-repeat: no-repeat;
@@ -347,6 +351,7 @@ footer p{
 	 height: 36px;
 
 }
+
 .linkedin{
 	background: url('../images/social-icons-sprite.png')-85px 0;
 	 background-repeat: no-repeat;
