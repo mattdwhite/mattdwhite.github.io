@@ -110,22 +110,23 @@ header p {
 }
 
 .cta {
-	padding: 10px 40px;
-	border-radius: 5px;
-/*	margin-top: 40px;
-*/	background-color: #ff7474;
-	vertical-align: center;
-	color:#fff;
-	border:none;
-	font-size: .85em;
-	display: inline-block;
-	text-align: center;
-
+/*	display: block;
+*/	text-align: center;
 }
 
-.cta:hover{
+.cta a{
+	padding: 10px 40px;
+	border-radius: 5px;
+	background-color: #ff7474;
+/*	vertical-align: center;
+*/	color: #fff;
+	border:  2px solid #ff7474;
+	font-size: .85em;
+}
+
+.cta a:hover{
 	background-color: #f9f9f9;
-	color:#ff7474;
+	color: #ff7474;
 	border:  2px solid #ff7474;
 }
 
@@ -137,6 +138,7 @@ nav a{
 	float: left;
 	font-size: 16px;
 }
+
 .active-page{
 	border-bottom: 3px solid #ff7474;	
 }
