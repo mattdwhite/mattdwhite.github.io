@@ -3,22 +3,25 @@
     <head>
         <title>Welcome to SeekU</title>
       <link href='http://fonts.googleapis.com/css?family=Monserrat:700,400' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
           <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0" />
     </head>
     <body>
    		<div id="wrapper">
 	    	<div id="hero">
-		       	<nav class="clearfix">
+		       	<nav class="clearfix menu">
 			       	<div class="left">
-			            <a class="logo" href="index.html">SeekU</a>
-			            <a href="about.html">About</a>
-			            <a href="contact.html">Contact</a>
+			            <a class="logo" href="index.html" class="menu-desktop">SeekU</a>
+			            <a href="about.html" class="menu-desktop">About</a>
+			            <a id="menu-desktop" href="contact.html" class="menu-desktop">Contact</a>
 		            </div>	
-		            <div class="right">	
+		            <div class="right menu-desktop">	
 			            <a href="#">Log in</a>
 			            <a class="button sign-up"href="#">Sign up</a>
+		            </div>
+		            <div class="right">	
+			            <a href="#" class= "menu-mobile">Menu</a>
 		            </div>
 		        </nav>
 		        <header>
@@ -30,33 +33,30 @@
 		        </header>
 	        </div>
 	        <!-- end hero div -->
-     <footer class="clearfix ">
-	        	<div class="left">
+      <footer class="clearfix">
+	        	<div class="col1">
 	        		<div class="footer-logo">
 		        	<a class="logo" href="index.html">SeekU</a>
 		        	<p>&copy; 2015 SeekU, LLC</p>
 		        	</div>
 		        	
 	        	</div>
-        		<div class="left">
+        		<div class="col2">
 		        	<ul>
-			        	<li><a href="about.html">about</a></li>
+			        	<li><a href="about.htmml">about</a></li>
 			        	<li><a href="contact.html">contact</a></li>
 			        	<li><a href="#">the team</a></li>
 			        	<li><a href="#">jobs</a></li>
-			        	</ul>
-	        	</div>
-	        	<div class="left">
-		        	<ul>
+		   	     	</ul>
+		       	</div>
+	       		<div class="col3">
+		       		<ul>
 			        	<li><a href="#">press</a></li>
 			        	<li><a href="#">terms of use</a></li>
 			        	<li><a href="#">privacy policy</a></li>
 		   	     	</ul>
-		       	</div>
-	       		<div class="left">
-		       		
 	       		</div>
-	       		<div class="left socialLinks">
+	       		<div class="socialLinks">
 	       		<p>Follow us:</p>
 	       		     <ul>
               			  <li class="facebook"><a href="https://www.facebook.com/" target="_blank" title="Visit on Facebook"></a></li>
@@ -66,8 +66,7 @@
 				        <li class="youtube"><a href="https://www.youtube.com/" target="_blank" title="Watch oDesk videos on YouTube"></a></li>
 
       				</ul>
-     		 </div>
-     
+      </div>
 	        </footer>
 	        <!-- end footer -->
         </div>
